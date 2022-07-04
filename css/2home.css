@@ -1,0 +1,44 @@
+.home {
+	text-align: center;
+}
+
+.home__subtitle {
+	font-weight: 700;
+	font-size: 12px;
+	line-height: 12px;
+	text-transform: uppercase;
+	color: #777E91;
+	margin: 8rem 0 0.5rem;
+}
+
+.home__title {
+	font-family: 'DM Sans';
+	font-style: normal;
+	font-weight: 700;
+	font-size: 40px;
+	line-height: 48px;
+	text-align: center;
+	letter-spacing: -0.01em;
+	color: #23262F;
+	margin: 0 0 1.5rem;
+}
+
+.home__butt {
+	padding: 14px 22px;
+	border: 2px solid #E6E8EC;
+	border-radius: 90px;
+	background: none;
+	font-family: 'DM Sans';
+	font-style: normal;
+	font-weight: 700;
+	font-size: 16px;
+	line-height: 16px;
+	color: #23262F;
+	transition: 500ms;
+}
+
+.home__butt:hover {
+	color: #FCFCFD;
+	background: #3772FF;
+
+}

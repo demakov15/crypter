@@ -1,0 +1,65 @@
+.hot {
+	background: #F4F5F6
+}
+
+.hot__name {
+	font-family: 'DM Sans';
+	font-weight: 700;
+	font-size: 40px;
+	line-height: 48px;
+	letter-spacing: -0.01em;
+	padding: 9rem 0 5.8rem;
+}
+
+.hot__collections-flex {
+	display: flex;
+	gap: 32px;
+}
+
+.hot__collections-box {
+	padding-bottom: 9rem;
+}
+
+.hot__box-flex {
+	display: flex;
+	gap: 8px;
+	margin-top: 8px;
+}
+
+.hot__collections-title {
+	font-weight: 600;
+	font-size: 24px;
+	line-height: 32px;
+	padding: 1rem 0 .5rem;
+}
+
+.hot__collections-info {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+
+.hot__collections-person {
+	display: flex;
+}
+
+.hot__collections-by {
+	font-size: 14px;
+	line-height: 24px;
+	padding: 0 8px 0 12px;
+}
+
+.hot__collections-name {
+	font-weight: 500;
+	font-size: 14px;
+	line-height: 24px;
+}
+
+.hot__collections-amount {
+	font-weight: 700;
+	font-size: 12px;
+	line-height: 12px;
+	padding: 6px;
+	border: 2px solid #E6E8EC;
+	border-radius: 4px;
+}

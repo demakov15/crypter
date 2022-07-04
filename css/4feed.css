@@ -1,0 +1,268 @@
+.feed {}
+
+.featured__flex {
+	display: flex;
+}
+
+.featured__item {}
+
+.featured__item-img {
+	width: 100%;
+	max-width: 448px;
+	height: 100%;
+	max-height: 432px;
+	margin: 0 2rem 1.5rem 0;
+}
+
+.featured__info {
+	display: flex;
+	align-items: center;
+}
+
+.featured__info_pic {
+	height: 48px;
+	width: 48px;
+	margin-right: 1rem;
+}
+
+.featured__text {}
+
+.featured__text-name {
+	font-weight: 600;
+	font-size: 24px;
+	line-height: 32px;
+	color: #23262F;
+	margin-right: 100px;
+}
+
+.featured__text-count {
+	font-weight: 500;
+	font-size: 14px;
+	line-height: 24px;
+	color: #353945;
+}
+
+.featured__bid {}
+
+.featured__bid-high {
+	font-weight: 400;
+	font-size: 12px;
+	line-height: 20px;
+	color: #777E91;
+}
+
+.featured__bid-price {
+	border: 2px solid #45B36B;
+	border-radius: 4px;
+	font-weight: 700;
+	font-size: 12px;
+	line-height: 12px;
+	text-transform: uppercase;
+	color: #45B36B;
+	padding: 8px 8px 6px 8px;
+}
+
+/*------------------*/
+
+.featured__list {
+	margin-right: 4rem;
+	margin-bottom: 9.2rem;
+}
+
+.featured__element {
+	display: flex;
+}
+
+.featured__element:nth-child(2) {
+	margin: 2rem 0;
+}
+
+.featured__element-cover {
+	max-width: 160px;
+	width: 100%;
+	max-height: 148px;
+	height: 100%;
+	margin-right: 1.5rem;
+}
+
+.featured__element-info {
+	padding: 9px;
+}
+
+.featured__element-name {
+	font-weight: 500;
+	font-size: 16px;
+	line-height: 24px;
+	color: #23262F;
+	max-width: 167px;
+}
+
+.featured__elemen-all {
+	display: flex;
+	align-items: center;
+	margin: 0.5rem 0 1rem;
+}
+
+.featured__elemen-ing {}
+
+.featured__elemen-price {
+	border: 2px solid #45B36B;
+	border-radius: 4px;
+	font-weight: 700;
+	font-size: 12px;
+	line-height: 12px;
+	text-transform: uppercase;
+	color: #45B36B;
+	padding: 8px 8px 6px 8px;
+	margin: 0 11px;
+}
+
+.featured__elemen-amount {
+	font-weight: 400;
+	font-size: 14px;
+	line-height: 24px;
+	color: #777E91;
+}
+
+
+.featured__elemen-butt {
+	font-family: 'DM Sans';
+	font-weight: 700;
+	font-size: 14px;
+	line-height: 16px;
+	color: #23262F;
+	background: none;
+	border: 2px solid #E6E8EC;
+	border-radius: 90px;
+	padding: 8px 12px;
+	transition: 500ms;
+}
+
+.featured__elemen-butt:hover {
+	color: #FCFCFD;
+	background: #3772FF;
+}
+
+/*------------------*/
+
+.featured__creators {
+	position: relative;
+}
+
+.featured__creators::after {
+	content: "";
+	height: 512px;
+	width: 1px;
+	background: #E6E8EC;
+	position: absolute;
+	left: -2rem;
+	top: 0;
+}
+
+.featured__creators-text {
+	font-weight: 600;
+	font-size: 12px;
+	line-height: 20px;
+	color: #777E91;
+	margin-bottom: 1.5rem;
+}
+
+.featured__creators-person {
+	display: flex;
+	width: 224px;
+	height: 56px;
+	margin-bottom: 1.5rem;
+	margin-top: 1.5rem;
+	position: relative;
+}
+
+.featured__creators-photo {
+	height: 50px;
+	width: 50px;
+	margin-right: 1rem;
+}
+
+.featured__creators-elem {
+	font-weight: 600;
+	font-size: 12px;
+	line-height: 20px;
+	color: #FCFCFD;
+	height: 24px;
+	width: 24px;
+	background-color: #23262F;
+	padding: 0px 6px;
+	border: 2px solid #FCFCFD;
+	border-radius: 50%;
+	top: -6px;
+	left: -6px;
+	position: absolute;
+}
+
+.featured__creators-info {}
+
+.featured__creators-str {}
+
+.featured__creators-str::after {
+	content: "";
+	height: 1px;
+	width: 224px;
+	background-color: #E6E8EC;
+	display: block;
+}
+
+.featured__creators-name {
+	font-weight: 500;
+	font-size: 14px;
+	line-height: 24px;
+	color: #23262F;
+	margin-bottom: 2px;
+}
+
+.featured__creators-cost {}
+
+.featured__creators-price {
+	font-weight: 600;
+	font-size: 12px;
+	line-height: 20px;
+	color: #353945;
+	display: inline;
+}
+
+.featured__creators-eth {
+	font-weight: 400;
+	font-size: 12px;
+	line-height: 20px;
+	color: #777E91;
+	display: inline;
+}
+
+.featured__button {
+	position: relative;
+}
+
+.featured__button:hover {}
+
+.featured__butt {
+	font-family: 'DM Sans';
+	font-weight: 700;
+	font-size: 14px;
+	line-height: 16px;
+	padding: 12px 44px 12px 16px;
+	color: #23262F;
+	background: none;
+	border: 2px solid #E6E8EC;
+	border-radius: 90px;
+	margin-top: 11px;
+	transition: 500ms;
+}
+
+.featured__butt:hover {
+	color: #FCFCFD;
+	background: #3772FF;
+}
+
+.featured__arow {
+	position: absolute;
+	right: 37%;
+	top: 55%;
+}

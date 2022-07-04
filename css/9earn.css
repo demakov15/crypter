@@ -1,0 +1,82 @@
+.earn {
+	background-color: #FCFCFD;
+}
+
+.container {}
+
+.earn__flex {
+	display: flex;
+}
+
+.earn__flex img {
+	width: 640px;
+	margin-bottom: 5.7rem;
+}
+
+.earn__left {
+	padding-top: 100px;
+}
+
+.earn__left strong {
+	font-weight: 700;
+	font-size: 16px;
+	line-height: 16px;
+	text-transform: uppercase;
+	color: #777E91;
+}
+
+.earn__left-title {
+	font-family: 'DM Sans';
+	font-weight: 700;
+	font-size: 64px;
+	line-height: 64px;
+	letter-spacing: -0.02em;
+	color: #23262F;
+	max-width: 480px;
+	width: 100%;
+	margin: 12px 0 20px;
+}
+
+.earn__left-subtitle {
+	font-size: 16px;
+	line-height: 24px;
+	color: #777E91;
+}
+
+.earn__left-buttons {}
+
+.earn__button-earn {
+	background: #3772FF;
+	border-radius: 90px;
+	font-family: 'DM Sans';
+	font-weight: 700;
+	font-size: 16px;
+	line-height: 16px;
+	color: #FCFCFD;
+	padding: 16px 24px;
+	transition: 500ms;
+	margin: 40px 16px 0 0;
+}
+
+.earn__button-earn:hover {
+	background: #3772FF;
+	color: #ffd92d;
+}
+
+.earn__button-discover {
+	border: 2px solid #E6E8EC;
+	border-radius: 90px;
+	font-family: 'DM Sans';
+	font-weight: 700;
+	font-size: 16px;
+	line-height: 16px;
+	color: #23262F;
+	background: none;
+	padding: 16px 24px;
+	transition: 500ms;
+}
+
+.earn__button-discover:hover {
+	color: #FCFCFD;
+	background: #3772FF;
+}

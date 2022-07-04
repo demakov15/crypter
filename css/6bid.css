@@ -1,0 +1,150 @@
+.bid {}
+
+.container {}
+
+.bid__header {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+
+.bid__header-name {
+	font-family: 'DM Sans';
+	font-weight: 700;
+	font-size: 40px;
+	line-height: 48px;
+	letter-spacing: -0.01em;
+	color: #23262F;
+	margin: 136px 0 64px;
+}
+
+.bid__arows {}
+
+.bid__arows-l {
+	padding: 15px 13.5px;
+}
+
+.bid__arows-l:hover {
+	background: url(../img/0/circle.png) no-repeat;
+}
+
+.bid__arows-r {
+	padding: 15px 13.5px;
+}
+
+.bid__arows-r:hover {
+	background: url(../img/0/circle.png) no-repeat;
+}
+
+.bid__header-arows {}
+
+.bid__cards-flex {
+	display: flex;
+	gap: 32px;
+}
+
+.bid__card {}
+
+.bid__card-cover {
+	width: 256px;
+	height: 303px;
+	border-radius: 16px;
+}
+
+.bid__card-text {
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	margin: 20px 0 12px;
+}
+
+.bid__card-name {
+	font-weight: 500;
+	font-size: 16px;
+	line-height: 24px;
+	color: #23262F;
+}
+
+.bid__card-cost {
+	font-weight: 700;
+	font-size: 12px;
+	line-height: 12px;
+	color: #45B36B;
+	border: 2px solid #45B36B;
+	border-radius: 4px;
+	padding: 5px;
+}
+
+.bid__card-info {
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	margin-bottom: 25px;
+	position: relative;
+}
+
+.bid__card-info::after {
+	content: "";
+	width: 256px;
+	height: 1px;
+	background: #E6E8EC;
+	position: absolute;
+	bottom: -12px;
+	left: 0;
+}
+
+.bid__card-people img {
+	background-color: #9757D7;
+	border: 2px solid #FCFCFD;
+	border-radius: 48px;
+	margin-right: -10px;
+}
+
+.bid__card-people img:nth-child(2) {
+	background-color: #EF466F;
+}
+
+.bid__card-people img:nth-child(3) {
+	background-color: #45B26B;
+}
+
+.bid__card-stock {
+	font-weight: 500;
+	font-size: 14px;
+	line-height: 24px;
+	color: #353945;
+}
+
+
+.bid__card-other {
+	display: flex;
+	justify-content: space-between;
+	margin-bottom: 128px;
+}
+
+.bid__card-content {
+	display: flex;
+}
+
+.bid__card-pic {}
+
+.bid__card-highest {
+	font-weight: 400;
+	font-size: 12px;
+	line-height: 20px;
+	color: #777E91;
+}
+
+.bid__card-eth {
+	font-weight: 600;
+	font-size: 12px;
+	line-height: 20px;
+	color: #353945;
+}
+
+.bid__card-bid {
+	font-weight: 400;
+	font-size: 12px;
+	line-height: 20px;
+	color: #777E91;
+}

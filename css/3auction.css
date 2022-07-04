@@ -1,0 +1,251 @@
+.auction {
+	margin-top: 8rem;
+}
+
+.auction__flex {
+	display: flex;
+}
+
+.auction__photo {
+	margin-right: 9rem;
+	margin-bottom: 8.5rem;
+	height: 100%;
+	max-height: 800px;
+	width: 100%;
+	max-width: 640px;
+}
+
+.auction__info {}
+
+.auction__text {
+	font-family: 'DM Sans';
+	font-weight: 700;
+	font-size: 64px;
+	color: #23262F;
+	margin: 0 0 1.25rem 0;
+}
+
+.auction__creator-flex {
+	display: flex;
+}
+
+.auction__creator-info {
+	display: flex;
+}
+
+.auction__creator-photo {
+	margin: 0 0.5rem 0 0;
+	height: 40px;
+	width: 40px;
+}
+
+.auction__creator-box {}
+
+.auction__creator {
+	font-weight: 400;
+	font-size: 12px;
+	line-height: 20px;
+	color: #777E91;
+}
+
+.auction__creator-name {
+	font-weight: 500;
+	font-size: 14px;
+	line-height: 24px;
+	color: #23262F;
+	margin-right: 4rem;
+}
+
+.auction__price-info {
+	display: flex;
+}
+
+.auction__price-photo {
+	margin: 0 0.5rem 0 0;
+	height: 40px;
+	width: 40px;
+}
+
+.auction__price-box {}
+
+.auction__price {
+	font-weight: 400;
+	font-size: 12px;
+	line-height: 20px;
+	color: #777E91;
+}
+
+.auction__price-cost {
+	font-weight: 500;
+	font-size: 14px;
+	line-height: 24px;
+	color: #23262F;
+	margin-bottom: 2.5rem;
+}
+
+.auction__bid {
+	width: 352px;
+	height: 296px;
+	background: none;
+	border: 2px solid #E6E8EC;
+	box-shadow: 0px 64px 64px -48px rgba(31, 47, 70, 0.12);
+	border-radius: 24px;
+	text-align: center;
+	padding: 2rem 3.78rem;
+}
+
+.auction__bid-text {
+	font-weight: 500;
+	font-size: 16px;
+	line-height: 24px;
+	color: #23262F
+}
+
+.auction__bid-eth {
+	font-weight: 700;
+	font-size: 48px;
+	line-height: 56px;
+	letter-spacing: -0.02em;
+	color: #141416;
+}
+
+.auction__bid-dol {
+	font-weight: 600;
+	font-size: 24px;
+	line-height: 32px;
+	color: #777E91;
+	margin-bottom: 1.5rem;
+}
+
+.auction__bid-ending {
+	font-weight: 500;
+	font-size: 16px;
+	line-height: 24px;
+	color: #23262F;
+}
+
+.auction__bid-timer {
+	display: flex;
+	justify-content: center;
+}
+
+.auction__bid-timer-h {
+	font-family: 'DM Sans';
+	font-style: normal;
+	font-weight: 700;
+	font-size: 32px;
+	line-height: 40px;
+	letter-spacing: -0.01em;
+	color: #141416;
+}
+
+.auction__bid-timer-m {
+	font-family: 'DM Sans';
+	font-style: normal;
+	font-weight: 700;
+	font-size: 32px;
+	line-height: 40px;
+	letter-spacing: -0.01em;
+	color: #141416;
+	margin: 0 3rem;
+}
+
+.auction__bid-timer-s {
+	font-family: 'DM Sans';
+	font-style: normal;
+	font-weight: 700;
+	font-size: 32px;
+	line-height: 40px;
+	letter-spacing: -0.01em;
+	color: #141416;
+}
+
+.auction__bid-timetext {
+	display: flex;
+	justify-content: space-between;
+}
+
+.auction__bid-timetext-h {
+	font-weight: 500;
+	font-size: 16px;
+	line-height: 24px;
+	color: #777E91;
+	margin-left: 30px;
+}
+
+.auction__bid-timetext-m {
+	font-weight: 500;
+	font-size: 16px;
+	line-height: 24px;
+	color: #777E91;
+	margin-left: 10px;
+}
+
+.auction__bid-timetext-s {
+	font-weight: 500;
+	font-size: 16px;
+	line-height: 24px;
+	color: #777E91;
+	margin-right: 27px;
+}
+
+.auction__place {
+	width: 100%;
+	max-width: 352px;
+	height: 100%;
+	max-height: 48px;
+	background: #3772FF;
+	border-radius: 90px;
+	font-family: 'DM Sans';
+	font-weight: 700;
+	font-size: 16px;
+	line-height: 16px;
+	color: #FCFCFD;
+	margin: 2.5rem 0 0.5rem 0;
+	transition: 500ms;
+}
+
+.auction__place:hover {
+	background: #3772FF;
+	color: #ffd92d;
+}
+
+.auction__view {
+	width: 100%;
+	max-width: 352px;
+	height: 100%;
+	max-height: 48px;
+	border: 2px solid #E6E8EC;
+	background: none;
+	border-radius: 90px;
+	font-family: 'DM Sans';
+	font-weight: 700;
+	font-size: 16px;
+	line-height: 16px;
+	color: #23262F;
+	transition: 500ms;
+	margin-bottom: 2.5rem;
+}
+
+.auction__view:hover {
+	color: #FCFCFD;
+	background: #3772FF;
+}
+
+.auction__arows {}
+
+.auction__arows-l {
+	padding: 15px 13.5px;
+}
+
+.auction__arows-l:hover {
+	background: url(../img/0/circle.png) no-repeat;
+}
+
+.auction__arows-r {
+	padding: 15px 13.5px;
+}
+
+.auction__arows-r:hover {
+	background: url(../img/0/circle.png) no-repeat;
+}
