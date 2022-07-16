@@ -194,7 +194,7 @@
 	max-width: 352px;
 	height: 100%;
 	max-height: 48px;
-	background: #3772FF;
+	background: #789eff;
 	border-radius: 90px;
 	font-family: 'DM Sans';
 	font-weight: 700;
@@ -207,7 +207,6 @@
 
 .auction__place:hover {
 	background: #3772FF;
-	color: #ffd92d;
 }
 
 .auction__view {

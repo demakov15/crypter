@@ -153,9 +153,11 @@
 	color: #23262F;
 }
 
-.discover__block-arr {	padding: 13px 11px;}
+.discover__block-arr {
+	padding: 13px 11px;
+}
 
-.discover__block-arr:hover{
+.discover__block-arr:hover {
 	background: url(../img/8discover/1-2.png) no-repeat;
 }
 
@@ -166,43 +168,19 @@
 
 /* ------------ */
 
-.discover__grid {
-	display: grid;
-	grid-template-areas:
-		"first second third fouth"
-		"fifth sixth seventh eighth";
+.discover__cards {}
+
+.discover__flex {
+	display: flex;
+	gap: 31px;
 }
 
-.discover__card:nth-child(1) {
-	grid-area: first;
+.discover__more {
+	display: none;
 }
 
-.discover__card:nth-child(2) {
-	grid-area: second;
-}
-
-.discover__card:nth-child(3) {
-	grid-area: third;
-}
-
-.discover__card:nth-child(4) {
-	grid-area: fouth;
-}
-
-.discover__card:nth-child(5) {
-	grid-area: fifth;
-}
-
-.discover__card:nth-child(6) {
-	grid-area: sixth;
-}
-
-.discover__card:nth-child(7) {
-	grid-area: seventh;
-}
-
-.discover__card:nth-child(8) {
-	grid-area: eighth;
+.discover__more.show {
+	display: inline;
 }
 
 .discover__card {

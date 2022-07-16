@@ -46,7 +46,7 @@
 .earn__left-buttons {}
 
 .earn__button-earn {
-	background: #3772FF;
+	background: #789eff;
 	border-radius: 90px;
 	font-family: 'DM Sans';
 	font-weight: 700;
@@ -60,7 +60,6 @@
 
 .earn__button-earn:hover {
 	background: #3772FF;
-	color: #ffd92d;
 }
 
 .earn__button-discover {

@@ -1,0 +1,39 @@
+.form-err {
+	position: absolute;
+	font-size: 16px;
+	right: 13%;
+	top: 68%;
+	transform: translate(-50%);
+	padding: 29px 20px 20px 20px;
+	color: rgb(255, 0, 0);
+}
+
+.form-err.show {
+	background: url(../img/10modal/Union.png) no-repeat;
+}
+
+.modal {
+	max-width: 550px;
+	background: rgba(99, 99, 99, 0.404);
+	color: white;
+	padding: 4rem 6rem;
+	border-radius: 30px;
+	backdrop-filter: blur(10px);
+
+	font-size: 38px;
+	line-height: 55px;
+
+	position: fixed;
+	z-index: -1;
+	top: 40%;
+	left: 50%;
+	transform: translate(-50%);
+	opacity: 0;
+
+	transition: 1s;
+}
+
+.modal.show {
+	opacity: 1;
+	z-index: 10001;
+}

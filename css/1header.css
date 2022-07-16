@@ -1,6 +1,12 @@
 .header {
 	font-family: 'Poppins';
 	font-weight: 600;
+
+	position: fixed;
+	width: 100%;
+	top: 0;
+	z-index: 1;
+	background-color: #FCFCFD;
 }
 
 .header__flex {
@@ -84,10 +90,10 @@
 
 .header__butt-upload {
 	padding: 12px 16px;
-	color: #FCFCFD;
+	color: #ffffff;
 	border: 2px solid #E6E8EC;
 	border-radius: 90px;
-	background: #3772FF;
+	background: #789eff;
 	font-weight: 700;
 	margin: 0 1.5rem 0 1rem;
 	transition: 500ms;
@@ -95,7 +101,6 @@
 
 .header__butt-upload:hover {
 	background: #3772FF;
-	color: #ffd92d;
 }
 
 .header__butt-wallet {
